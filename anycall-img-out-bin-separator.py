@@ -1,8 +1,6 @@
 import struct
 import os
 import sys
-from io import BytesIO
-import lzo
 
 if len(sys.argv) < 2:
 	print(f"Not enough arguments! usage: {sys.argv[0]} img_out.bin", file=sys.stderr)
